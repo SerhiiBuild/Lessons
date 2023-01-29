@@ -1,0 +1,35 @@
+@import url(css/reset.css);
+
+.header{
+  background-color: rgb(176, 176, 192);
+}
+
+.main{
+    color: coral;
+}
+.footer{
+    background-color: rgb(163, 152, 131);
+}
+
+a{
+    color: red;
+}
+
+.list{
+    background-color: darkgrey;
+    color: black;
+}
+
+#one{
+    color: rgba(5, 71, 5, 0.712);
+}
+
+#two{
+    color: gold;
+}
+#three{
+    color: rgb(165, 46, 46);
+}
+#four{
+    color: rgb(137, 111, 150);
+}
