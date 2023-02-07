@@ -1,0 +1,92 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Murecho:100,200,300,regular,500,600,700,800,900);
+
+@font-face {
+    font-family:"Bentham-Regular" ;
+    src: url(/fonts/Bentham-Regular.woff)
+    format(woff), url(../fonts/Bentham-Regular.woff2)
+    format(woff2);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(121, 88, 5, 0.705);
+    background-color: rgb(153, 214, 216);
+}
+
+.header_title{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+    }
+
+.link_text{
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    color: rgba(216, 37, 37, 0.788);
+}
+.header_body{
+    font-family: "Murecho", serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.header_text {
+    font-family: "Murecho", serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-indent: 20px;
+    color: brown;
+}
+
+.menu{
+   font-family: "Bentham-Regular", sans-serif ;
+   font-size: 25px;
+   font-weight: 500;
+   color: midnightblue;
+}
+
+.menu_body{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu_text{
+    color: rgba(4, 34, 4, 0.692);
+    text-align: justify;
+}
+
+.letter{
+    text-decoration:underline;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.footer_text{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(240, 49, 49);
+    text-shadow: 3px 3px 7px rgb(196, 53, 34);
+}
+
+.navigation{
+    font-family: "Karla",serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    color: rgba(165, 43, 12, 0.87);
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 1;
+}
